@@ -20,10 +20,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('academy.urls')),
+    path("admin/", admin.site.urls),
+    path("", include("academy.urls")),
 ]
 
-urlpatterns += static(
-    settings.STATIC_URL, document_root=settings.STATICFILES_DIRS
-)
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS)
