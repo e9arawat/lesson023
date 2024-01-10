@@ -1,4 +1,4 @@
-** Steps to run the file **
+**Steps to run the file**
 1.  Clone the repository
 
 2.  Go inside the football folder.
